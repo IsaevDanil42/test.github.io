@@ -1,0 +1,87 @@
+.main {
+    position: absolute;
+    width: 265px;
+    height: 56px;
+    left: 24px;
+    top: 170px;
+    background: #F5F5F5;
+    border-radius: 2px;
+}
+
+.fileName {
+    position: absolute;
+    width: 168px;
+    height: 18px;
+    top: 14px;
+    left: 52px;
+    right: 57px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #333333;
+}
+
+.fileImg {
+    background-image: url(fileImg.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 17.25px;
+    right: 223px;
+    top: 14px;
+    bottom: 14px;
+}
+
+.SizeError {
+    position: absolute;
+    width: 168px;
+    height: 18px;
+    top: 14px;
+    left: 52px;
+    right: 57px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 130%;
+    color: #EB5757;
+}
+
+.line {
+    position: absolute;
+    width: 168px;
+    height: 0px;
+    left: 52px;
+    top: 38px;
+    border: 2px solid #C2C4FF;
+    background-color: #C2C4FF;
+    border-radius: 2px;
+}
+
+.lineLoaded {
+    position: absolute;
+    width: 168px;
+    height: 0px;
+    left: 52px;
+    top: 38px;
+    border: 2px solid #585CC6;
+    background-color: #585CC6;
+    border-radius: 2px;
+}
+
+
+.lineError {
+    position: absolute;
+    width: 168px;
+    height: 0px;
+    left: 52px;
+    top: 38px;
+    border: 2px solid #EB5757;
+    background-color: #EB5757;
+    border-radius: 2px;
+}

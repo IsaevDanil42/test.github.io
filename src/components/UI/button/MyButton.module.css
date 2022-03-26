@@ -1,0 +1,71 @@
+.myBtn {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 17px 28px;
+    background: #585CC6;
+    border: 1px #585CC6;
+    border-radius: 2px;
+    position: absolute;
+    width: 220px;
+    height: 52px;
+    left: 922px;
+    top: 74px;
+}
+
+.myBtn:not([disabled]):hover{
+    background: #797DDF;
+}
+
+:disabled {
+    background: #8A8A8A;
+}
+
+.textWithIcon {
+    position: absolute;
+    width: 136px;
+    height: 18px;
+    left: 56px;
+    top: 17px;
+
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.01em;
+
+    /* White #FFFFFF */
+
+    color: #FFFFFF;
+}
+
+.text {
+    position: absolute;
+    
+
+    font-family: 'Gilroy-Regular';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 18px;
+    /* identical to box height, or 100% */
+
+    letter-spacing: 0.01em;
+
+    /* White #FFFFFF */
+
+    color: #FFFFFF;
+}
+
+.img {
+    background-image: url(myButton.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 30px;
+    right: 172px;
+    top: 19px;
+    bottom: 18.7px;
+}

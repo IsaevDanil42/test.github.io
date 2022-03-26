@@ -1,0 +1,31 @@
+.ErrorToast {
+    background-image: url(messageError.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1545px;
+    left: 962px;
+    right: 40px;
+    bottom: 104px;
+    visibility: hidden;
+}
+
+.active {
+    background-image: url(messageError.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 1545px;
+    left: 962px;
+    right: 40px;
+    bottom: 104px;
+    visibility: hidden;
+    animation: rotate 2s forwards;
+}
+
+@keyframes rotate {
+    from {
+        visibility: visible;
+    }
+    to {
+        visibility: hidden;
+    }    
+}

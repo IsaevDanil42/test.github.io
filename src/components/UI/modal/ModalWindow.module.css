@@ -1,0 +1,35 @@
+.modalWindow {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: none;
+    background: rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+    z-index: 5;
+}
+
+.modalWindowContent {
+    position: absolute;
+    width: 676px;
+    height: 443px;
+    left: 382px;
+    top: 690px;
+    background: #FFFFFF;
+}
+
+.content {
+    position: absolute;
+    width: 676px;
+    height: 511px;
+    left: 382px;
+    top: 690px;
+    background: #FFFFFF;
+}
+
+.modalWindow.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

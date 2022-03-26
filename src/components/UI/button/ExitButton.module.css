@@ -1,0 +1,8 @@
+.exitButton {
+    background-image: url(exitButton.svg);
+    background-repeat: no-repeat;
+    height: 17.73px;
+    width: 17.73px;
+    border: 0;
+    background-color: #FFFFFF;
+}

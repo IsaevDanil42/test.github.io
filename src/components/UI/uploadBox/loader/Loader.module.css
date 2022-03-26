@@ -1,0 +1,41 @@
+.lineLoad {
+    position: absolute;
+    width: 0%;
+    height: 0px;
+    left: 52px;
+    top: 38px;
+    border: 2px solid #585CC6;
+    background-color: #585CC6;
+    border-radius: 2px;
+    animation: loading 2s ease-in-out forwards;
+}
+
+@keyframes loading {
+    to {
+    width: 168px;
+    }
+  }
+
+.load {
+    background-image: url(load.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 236px;
+    right: 12px;
+    top: 19px;
+    bottom: 19px;
+    animation: rotate 2s forwards;
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+        visibility: visible;
+    }
+    to {
+        transform: rotate(360deg);
+        visibility: hidden;
+    }    
+}
+
+

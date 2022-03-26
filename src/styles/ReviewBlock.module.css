@@ -1,0 +1,35 @@
+.style1 {
+    background-image: url(style1.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    left: 581px;
+    right: 557px;
+    top: 493px;
+    bottom: 32px;
+}
+
+.style2 {
+    background-image: url(style2.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    left: 581px;
+    right: 557px;
+    top: 493px;
+    bottom: 32px;
+}
+
+.style3 {
+    background-image: url(style3.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 60px;
+    height: 10px;
+    left: 581px;
+    right: 557px;
+    top: 493px;
+    bottom: 32px;
+}

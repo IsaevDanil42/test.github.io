@@ -1,0 +1,11 @@
+.delete {
+    background-image: url(delete.svg);
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 235.5px;
+    top: 18px;
+    bottom: 12px;
+    right: 10px;
+    border: 0;
+    background-color: #F5F5F5;
+}
